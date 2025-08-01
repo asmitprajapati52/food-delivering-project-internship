@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food ordering</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <div class="navbar">
+        <div class="nav_logo border">
+            <div class="logo">
+            </div>
+        </div>
+    <div class="nav_add border">
+        <p class="firstadd">Deliver to</p>
+        <div class="add_icon">
+            <i class="fa-solid fa-location-dot" style="font-size: 1.5rem;"></i>
+            <p class="secadd">India</p>
+        </div>
+    </div>
+    <div class="search_bar border">
+        <select class="search border">
+            <option>All</option>
+        </select>
+        <input type="text" placeholder="Search food......" id="search-input">
+        <div class="search_icon border">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <div class="login border">
+        <div class="login_icon">
+             <i class="fa-solid fa-circle-user"></i>
+        </div>
+        <select class="login_sign">
+            <option>login</option>
+        </select>
+    </div>
+    <div class="cart border">
+        <div class="cart_icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </div>
+    <div class="house border">
+        <div class="house_icon">
+             <i class="fa-solid fa-store"></i>
+        </div>
+    </div>
+    <div class="ellipsis border">
+        <div class="ellipsis_icon">
+             <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+    </div>
+    </div>
+   </header>
+   <div class="herosection">
+    <h1 class="heading"> hunger rush</h1>
+    <div id="food-container" class="food-row"></div>
+    
+   </div>
+   <div class="yourcart">
+      <h2>your cart</h2>
+      <ul id="cart-list"></ul>
+
+      <p id="cart-total" style="margin-top: 10px; font-weight: bold; text-align: center;">Total: ₹0</p>
+
+  <button id="place-order-btn">Place Order</button>
+  <p id="order-message" style="color: green; text-align: center; display: none; margin-top: 10px;"></p>
+</div>
+    </div>
+   <footer>
+     <div class="footpanel1">
+       <ul>
+            <p>ABOUT</p>
+                <a class="line">Contact Us</a>
+                <a class="line">About Us</a>
+                <a class="line">Careers</a>
+                <a class="line">Flipkart Stories</a>
+                <a class="line">Press</a>
+                <a class="line">Corporate Information</a>
+    </ul>
+        <ul>
+            <p>GROUP COMPANIES</p>
+                <a class="line">Myntra</a>
+                <a class="line">Cleartrip</a>
+                <a class="line">Shopsy</a>
+        </ul>
+        <ul>
+            <p>HELP</p>
+                <a class="line">Payments</a>
+                <a>Shipping</a>
+                <a>Cancellation & Returns</a>
+                <a>FAQ</a>
+        </ul>
+        <ul>
+            <p> CONSUMER POLICY</p>
+                <a class="line">Cancellation & Returns</a>
+                <a class="line">Terms Of Use</a>
+                <a class="line">Security</a>
+                <a class="line">Privacy</a>
+                <a class="line">Sitemap</a>
+                <a class="line">Grievance Redressa!</a>
+                <a class="line">EPR Compliance</a>
+        </ul>
+    <div class="divider"></div>
+        <ul>
+            <p>Mail Us:</p>
+                <a>Flipkart Internet Private Limited,</a>
+                <a>Building Alyssa Begonia &</a>
+                <a>Clove Embassy Tech Village,</a>
+                <a>Outer Ring Road, Devarabessananahalli Village</a>
+                <a>Bengaluru, 560103</a>
+                <a>Karnataka, India</a>
+                <p>   </p>
+                <p>  </p>
+                <p class="Social">Social</p>
+        </ul>
+        <ul>
+            <p>Register Office Address</p>
+                <a>Flipkart internet Private Limited,</a>
+                <a>Buildings Alyssa, begonia &</a>
+                <a>Clove Embassy Tech Village,</a>
+                <a>Outer Ring Road, Devarabessananahalli Village</a>
+                <a>Bengaluru, 560103</a>
+                <a>Karnataka, India</a>
+                <a>CIN:U51106867724979847</a>
+                <a>Telephone:044-6446686466</a>
+        </ul>
+    </div>
+    <div class="footpanel2">
+        <div class="panel-content">
+            <i class="fa-solid fa-store"></i>
+                <p>Become a Seller</p>
+    </div>
+    <div class="panel-content">
+        <i class="fa-regular fa-star"></i>
+            <p>Advertise</p>
+    </div>
+    <div class="panel-content">
+        <i class="fa-solid fa-gift"></i>
+        <p>Gift Cards</p>
+    </div>
+    <div class="panel-content">
+        <i class="fa-solid fa-question"></i>
+        <p>Help Center</p>
+        </div>
+        <div class="panel-content">
+        <p>©2007-2025 Flipkart.com</p>
+        </div>
+        </div>
+    </div>
+   </footer>
+   <script src="Script.js"></script>
+</body>
+</html>
