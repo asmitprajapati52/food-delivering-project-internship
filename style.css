@@ -24,7 +24,7 @@
     /* border: solid black; */
 }
 .logo{
-    background-image: url("pictures/logo.jpeg");
+    background-image: url("logo.jpeg");
     background-size: cover;
     height: 60px;
     width: 100px;
@@ -147,7 +147,7 @@
 
 .herosection{
 
-    background-image: url("pictures/bg.jpg");
+    background-image: url("bg.jpg");
     background-size: cover;
 }
 
